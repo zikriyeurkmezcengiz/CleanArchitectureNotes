@@ -14,3 +14,7 @@ It is the perversity of software that a module that you have designed to be easy
 # STABILITY
 Webster’s Dictionary says that something is stable if it is “not easily moved.” Stability is related to the amount of work required to make a change. On the one hand, the standing penny is not stable because it requires very little work to topple it. 
 On the other hand, a table is very stable because it takes a considerable amount of effort to turn it over.
+
+# STABLE ABSTRACTIONS PRINCIPLES
+A component should be as abstract as it is stable.
+Thus, if a component is to be stable, it should consist of interfaces and abstract classes so that it can be extended. Stable components that are extensible are flexible and do not overly constrain the architecture.
