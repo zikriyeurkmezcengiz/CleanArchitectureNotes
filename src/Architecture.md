@@ -53,4 +53,13 @@ ConsoleReader and ConsoleWriter are shown here as classes. They are low level be
 
 Recall that policies are grouped into components based on the way that they change. Policies that change for the same reasons and at the same times are grouped together by the SRP and CCP. Higher-level policies—those that are farthest from the inputs and outputs—tend to change less frequently, and for more important reasons, than lower- level policies. Lower-level policies—those that are closest to the inputs and outputs— tend to change frequently, and with more urgency, but for less important reasons.
 
-# BUSINESS RULES
+# CLEAN ARCHITECTURE
+
+Characteristics of clean architecture : 
+
+* Testable. The business rules can be tested without the UI, database, web server, or any other external element.
+* Independent of the UI. The UI can change easily, without changing the rest of the system. A web UI could be replaced with a console UI, for example, without changing the business rules.
+* Independent of the database. You can swap out Oracle or SQL Server for Mongo, BigTable, CouchDB, or something else.Your business rules are not bound to the database.
+* Independent of any external agency. In fact, your business rules don’t know anything at all about the interfaces to the outside world.
+
+TODO: CleanArchitecture.png will be used in here. 
