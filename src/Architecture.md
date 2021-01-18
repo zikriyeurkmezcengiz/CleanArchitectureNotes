@@ -45,3 +45,12 @@ TODO: The PluggingIntoTheBusinrssRules.png will be used in here.
 
 # POLICY AND LEVEL
 
+Note the dashed border surrounding the Encrypt class, and the CharWriter and CharReader interfaces. All dependencies crossing that border point inward. This unit is the highest- level element in the system.
+TODO: The PolicyAndLevels.png will be used in here. 
+
+ConsoleReader and ConsoleWriter are shown here as classes. They are low level because they are close to the inputs and outputs.
+
+
+Recall that policies are grouped into components based on the way that they change. Policies that change for the same reasons and at the same times are grouped together by the SRP and CCP. Higher-level policies—those that are farthest from the inputs and outputs—tend to change less frequently, and for more important reasons, than lower- level policies. Lower-level policies—those that are closest to the inputs and outputs— tend to change frequently, and with more urgency, but for less important reasons.
+
+# BUSINESS RULES
