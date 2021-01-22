@@ -63,6 +63,7 @@ Characteristics of clean architecture :
 * Independent of any external agency. In fact, your business rules don’t know anything at all about the interfaces to the outside world.
 
 TODO: CleanArchitecture.png will be used in here. 
+![CleanArchitecture](https://github.com/zikriyeurkmezcengiz/CleanArchitectureNotes/blob/9182c0b8c7943a0644d417baee6b9b3656017da7/src/assets/images/CleanArchitecture.png)
 
 # HUMBLE OBJECT PATTERN
 TODO: Need more research. 
