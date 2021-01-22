@@ -41,7 +41,7 @@ The fact that we did not have a database running for 18 months of development me
 # Plugin Architecture 
 Indeed, the history of software development technology is the story of how to conveniently create plugins to establish a scalable and maintainable system architecture. The core business rules are kept separate from, and independent of, those components that are either optional or that can be implemented in many different forms. 
 
-TODO: The PluggingIntoTheBusinrssRules.png will be used in here. 
+![The PluggingIntoTheBusinrssRules](https://github.com/zikriyeurkmezcengiz/CleanArchitectureNotes/blob/0ea3109b0715dced20fd2ccc3a2bc6c3aa41cf98/src/assets/images/PluggingIntoTheBusinessRules.png)
 
 # POLICY AND LEVEL
 
