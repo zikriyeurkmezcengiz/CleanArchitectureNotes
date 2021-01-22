@@ -46,7 +46,8 @@ Indeed, the history of software development technology is the story of how to co
 # POLICY AND LEVEL
 
 Note the dashed border surrounding the Encrypt class, and the CharWriter and CharReader interfaces. All dependencies crossing that border point inward. This unit is the highest- level element in the system.
-TODO: The PolicyAndLevels.png will be used in here. 
+
+![PolicyAndLevels](https://github.com/zikriyeurkmezcengiz/CleanArchitectureNotes/blob/cf37dabbcba0f8e46555551c3ba3562d101c494f/src/assets/images/PolicyAndLevels.png)
 
 ConsoleReader and ConsoleWriter are shown here as classes. They are low level because they are close to the inputs and outputs.
 
