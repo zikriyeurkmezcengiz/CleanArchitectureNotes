@@ -67,8 +67,3 @@ Characteristics of clean architecture :
 
 # HUMBLE OBJECT PATTERN
 TODO: Need more research. 
-
--- tests ekledim 
--- test notum 2
---test from another account
---test from another account
