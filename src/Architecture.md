@@ -69,3 +69,4 @@ Characteristics of clean architecture :
 TODO: Need more research. 
 
 -- tests ekledim 
+-- test notum 2
