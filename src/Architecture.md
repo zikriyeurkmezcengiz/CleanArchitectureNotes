@@ -65,5 +65,8 @@ Characteristics of clean architecture :
 
 ![CleanArchitecture](https://github.com/zikriyeurkmezcengiz/CleanArchitectureNotes/blob/9182c0b8c7943a0644d417baee6b9b3656017da7/src/assets/images/CleanArchitecture.png)
 
+**Conclusion** : 
+Aome very smart people have told us, over the years, that we should not anticipate the need for abstraction. This is the philosophy of ***YAGNI***: “You aren’t going to need it.” There is wisdom in this message, since over-engineering is often much worse than under- engineering. On the other hand, when you discover that you truly do need an architectural boundary where none exists, the costs and risks can be very high to add such a boundary.
+
 # HUMBLE OBJECT PATTERN
 TODO: Need more research. 
