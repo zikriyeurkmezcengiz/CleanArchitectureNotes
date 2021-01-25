@@ -70,3 +70,7 @@ Aome very smart people have told us, over the years, that we should not anticipa
 
 # HUMBLE OBJECT PATTERN
 TODO: Need more research. 
+
+# MAIN COMPONENT 
+
+Think of Main as a plugin to the application—a plugin that sets up the initial conditions and configurations, gathers all the outside resources, and then hands control over to the high-level policy of the application. Since it is a plugini it is possible to have many Main components, one for each configuration of your application. 
