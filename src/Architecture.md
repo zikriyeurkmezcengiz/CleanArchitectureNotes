@@ -74,3 +74,12 @@ TODO: Need more research.
 # MAIN COMPONENT 
 
 Think of Main as a plugin to the application—a plugin that sets up the initial conditions and configurations, gathers all the outside resources, and then hands control over to the high-level policy of the application. Since it is a plugini it is possible to have many Main components, one for each configuration of your application. 
+
+# SERVICES: GREAT AND SMALL
+
+**THE DECOUPLING FALLACY** : 
+Services are decoupled at the level of individual variables. However, they can still be coupled by shared resources within a processor, or on the network. What’s more, they are strongly coupled by the data they share.
+For example, if a new field is added to a data record that is passed between services, then every service that operates on the new field must be changed. The services must also strongly agree about the interpretation of the data in that field. Thus those services are strongly coupled to the data record and, therefore, indirectly coupled to each other.
+
+The decoupling fallacy means that services cannot always be independently developed, deployed, and operated. To the extent that they are coupled by data or behavior, the development, deployment, and operation must be coordinated.
+
