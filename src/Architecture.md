@@ -83,3 +83,6 @@ For example, if a new field is added to a data record that is passed between ser
 
 The decoupling fallacy means that services cannot always be independently developed, deployed, and operated. To the extent that they are coupled by data or behavior, the development, deployment, and operation must be coordinated.
 
+# THE TEST BOUNDARY
+
+When developers realize that simple changes to the system can cause massive test failures, they may resist making those changes. The first rule of software design-whether for testability or for any reason-is always the same. Don't depend on volatile things. GUIs are volatile. Test suites that operate the system through the GUI must be fragile. Therefore design the system, and the tests, so that business rules can be tested without using the GUI.
