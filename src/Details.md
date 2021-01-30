@@ -22,4 +22,10 @@ In “Presentation Domain Data Layering,”2 Martin Fowler says that adopting su
 
 A layered architecture doesn’t scream anything about the business domain. Put the code for two layered architectures, from two very different business domains, side by side and they will likely look eerily similar: web, services, and repositories
 
+**Package By Component**
+You can think of well-defined components in a monolithic application as being a stepping stone to a micro-services architecture.
+
+ If you are building such an application (and many people are), I would certainly encourage you to lean on the compiler to enforce your architectural principles, rather than relying on self-discipline and post-compilation tooling.
+
+The devil is in th implementation details.
 
